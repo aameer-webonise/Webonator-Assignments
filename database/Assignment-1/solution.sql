@@ -83,8 +83,8 @@ group by D.manager_id ) as tempD2);
 #budgets larger than $1 million, but at least one department with 
 #budget less than $5 million.
 
- select E.name
- from emp E, dept D
- where E.id = D.manager_id group by E.id, E.name
- having min(D.budget) > 1000000
- and min(D.budget) < 50000000;
+ select e.name as "Employee Name"
+ from emp e, dept d
+ where e.id = d.manager_id group by e.id, e.name
+ having min(d.budget) > 1000000
+ and min(d.budget) < 50000000;
