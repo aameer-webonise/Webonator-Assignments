@@ -97,10 +97,10 @@ insert into works values(39,111,100);
 insert into works values(40,111,100);
 insert into works values(41,666,100);
 
-insert into works values(111,'Software',30000,9);
-insert into works values(222,'Hardware',29000,5);
-insert into works values(333,'E&TC',100000,8);
-insert into works values(444,'Testing',40000,9);
-insert into works values(555,'Deployment',50000,9);
-insert into works values(666,'MECH',1200000,41);
-insert into works values(777,'Quality',1800000,41);
+insert into dept values(111,'Software',30000,9);
+insert into dept values(222,'Hardware',29000,5);
+insert into dept values(333,'E&TC',100000,8);
+insert into dept values(444,'Testing',40000,9);
+insert into dept values(555,'Deployment',50000,9);
+insert into dept values(666,'MECH',1200000,41);
+insert into dept values(777,'Quality',1800000,41);
